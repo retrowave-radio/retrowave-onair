@@ -12,4 +12,5 @@ docker run \
   --name ${container_name} \
   --network ${network_name} \
   --dns-opt 'ndots:1' \
+  -v retrowave-air-data:/data \
   ${image_name}
